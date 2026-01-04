@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(src/core/api )",
+      "Bash(src/core/components )",
+      "Bash(src/core/composables )",
+      "Bash(src/core/layouts )",
+      "Bash(src/core/errors )",
+      "Bash(src/core/constants )",
+      "Bash(src/core/types )",
+      "Bash(src/core/utils )",
+      "Bash(src/api )",
+      "Bash(src/stores )",
+      "Bash(src/components/auth )",
+      "Bash(src/components/dashboard )",
+      "Bash(src/views/auth )",
+      "Bash(src/views/dashboard )",
+      "Bash(src/router/routes )",
+      "Bash(src/router/guards )",
+      "Bash(src/assets/images/common )",
+      "Bash(src/assets/images/domain/auth )",
+      "Bash(src/assets/images/domain/dashboard )",
+      "Bash(src/assets/fonts/pretendard )",
+      "Bash(src/assets/styles)",
+      "Bash(git remote add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
