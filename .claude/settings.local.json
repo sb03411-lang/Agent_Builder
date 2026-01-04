@@ -28,7 +28,8 @@
       "Bash(git branch:*)",
       "Bash(git push:*)",
       "Bash(git add:*)",
-      "Bash(git commit -m \"$(cat <<''EOF''\nfix: Pretendard 폰트를 CDN으로 변경\n\n- 로컬 폰트 파일 참조에서 CDN import 방식으로 변경\n- Vercel 빌드 오류 해결\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+      "Bash(git commit -m \"$(cat <<''EOF''\nfix: Pretendard 폰트를 CDN으로 변경\n\n- 로컬 폰트 파일 참조에서 CDN import 방식으로 변경\n- Vercel 빌드 오류 해결\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []

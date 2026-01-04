@@ -15,7 +15,9 @@ const authStore = useAuthStore()
 const toast = useToast()
 const { isLoading, withLoading } = useLoading()
 
-const isDev = import.meta.env.VITE_APP_ENV === 'development'
+// TODO: 백엔드 연동 후 원복 필요
+// const isDev = import.meta.env.VITE_APP_ENV === 'development'
+const isDev = true
 
 const loginSchema = toTypedSchema(
   z.object({
